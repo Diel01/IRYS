@@ -1,0 +1,92 @@
+*{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   text-decoration: none;
+   color:  rgb(66, 47, 110);
+}
+.logo{
+   width: 750px;
+}
+.logo img{
+   width: 100%;
+}
+
+.box{
+   margin: auto;
+   width: 750px;
+   border-radius: 10px;
+   box-shadow: 0px 10px 15px 6px rgb(181, 160, 236); 
+   position: relative; 
+   color: rgb(66, 47, 110);
+   
+}
+.box img{
+   width: 100%;
+   transition: 1s;
+   opacity: 0.4;
+}
+/*premiere partie*/
+.o h2{
+   font-size: 55px;
+   
+}
+.box .o p{
+   font-size: 30px;
+}
+.o{
+   position: absolute;
+   top: 10%;
+   left: 40%;
+   transform: translate(-50%,25%);
+}
+.l{
+   font-size: 50px;
+   text-align: center;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-25%);
+   
+}
+/*----------------bienvenue---------------------*/
+.box .b{
+   font-size: 30px;
+   padding-left:20px;
+   padding-right: 5px;
+   padding-bottom: 10px;
+}
+.box .b p{
+   font-size: 30px;
+}
+/*----------actu--------------------*/
+
+.actu h4{
+font-size: 30px;
+}
+.actu p{
+   font-size: 30px;
+}
+.actu h2{
+   font-size: 40px;
+  
+}
+
+/*--------------footer------------------------*/
+
+
+@media screen and (max-width:550px){
+   .logo img{
+      width: 100%;
+   }
+   
+   .box img{
+      width: 100%;
+   }
+   
+}
+/*------------animation-----------*/
+
+.box img:hover{
+   opacity: 0.9;
+   background-image: url(images\pexels-andrea-piacquadio-3959947.jpg);
+}
+
